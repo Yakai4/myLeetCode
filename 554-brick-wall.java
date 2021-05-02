@@ -23,7 +23,6 @@ class Solution {
             }
         }
         return size-max;
-
     }
     int[] prefix(List<Integer> e) {
         int size = e.size();
@@ -32,7 +31,7 @@ class Solution {
         for(int i = 1;i<size;++i) {
             sum[i] = sum[i-1]+e.get(i);
         }
-        return sum;
+    return sum;
     }
 }
 
@@ -53,8 +52,8 @@ class Solution {
             }
         }
             
-        for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            max = Math.max(max,entry.getValue());
+        for(Map.Entry<Integer, Integer> entry : map.entrySet()) { 	// convert the view from Map to Set. the function map.entrySet() creates a set of entry.
+            max = Math.max(max,entry.getValue());             		// An entry is a pair of one mapping.
         }
 
         return size-max;
