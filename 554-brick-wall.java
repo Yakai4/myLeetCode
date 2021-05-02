@@ -1,5 +1,4 @@
 //my noob code out of memory limitaion
-```java
 class Solution {
     public int leastBricks(List<List<Integer>> wall) {
         int size = wall.size();
@@ -36,9 +35,9 @@ class Solution {
         return sum;
     }
 }
-```
+
 //improved after the official code
-```java
+
 class Solution {
     Map<Integer, Integer> map = new HashMap<Integer, Integer>();
     public int leastBricks(List<List<Integer>> wall) {
@@ -61,4 +60,3 @@ class Solution {
         return size-max;
     }
 }
-```
