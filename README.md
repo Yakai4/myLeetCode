@@ -1,2 +1,3 @@
 # myLeetCode
-my noob codes and official elegant code
+my noob codes-->🤣🤣🤣
+official elegant code-->😎😎😎
